@@ -50,7 +50,7 @@ module.exports =
         'node_modules/markerclustererplus/dist/markerclusterer.min.js'
         'node_modules/google-maps-utility-library-v3-infobox/dist/infobox.js'
         'node_modules/google-maps-utility-library-v3-keydragzoom/dist/keydragzoom.js'
-        'node_modules/google-maps-utility-library-v3-markerwithlabel/dist/markerwithlabel.js'
+        'node_modules/@google/markerwithlabel/src/markerwithlabel.js'
         'bower_components/js-rich-marker/src/richmarker.js'
       ]
       dest: "tmp/gmaps_sdk_util_v3.js"
