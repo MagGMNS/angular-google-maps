@@ -1,3 +1,7 @@
+## 2018-09-04 Update MarkerForLabel library
+For our Ionic project, the clustered markers disappeared on the map in some cases. This was due to an error on "MarkerLabel.onRemove" accessing undefined properties. 
+By updating google v3 library to its latest version, the problem was solved.
+
 ## Project No longer actively maintained
 
 With angular 2 and other competing projects we have decided to announce that this project is no longer activley maintained. If someone desires to take over the project please contact any of the admins.
